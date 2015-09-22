@@ -14,8 +14,7 @@
       - yum-utils
       - net-snmp
       - net-snmp-utils
-#      - freeipa-admintools
-#      - @Development tools
+      - lsof
 
   - name: Snmp configuration
     template:
